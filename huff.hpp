@@ -1,4 +1,4 @@
- //header guards to prevent header files from being included multiple times
+//header guards to prevent header files from being included multiple times
 #ifndef HUFF_HPP
 #define HUFF_HPP
 #include <string>
@@ -29,7 +29,7 @@ class huff {
         class Compare {
             public:
                 bool operator() (Node* l, Node* r) {
-                    return l ->freq > r -> freq;
+                    return l -> freq > r -> freq;
                 }
         };
 
@@ -38,11 +38,14 @@ class huff {
         //initializing a vector of tree nodes representing character's ASCII values and initializing its freq with 0
         void createArr();
 
-        //constructing the Huffman tree
-        void createTree();
+        //reconstructing the Huffman tree while Decoding the file
+        void buildTree(char, string&);
 
         //creating Min Heap of Nodes by freq of characters in input file
         void createMinHeap();
+
+        //constructing the Huffman tree
+        void createTree();
 
         //generating Huffman codes
         void createCodes();
@@ -56,9 +59,6 @@ class huff {
         //to convert a decimal number to its equivalent binary string
         string decToBin(int);
         
-        //reconstructing the Huffman tree while Decoding the file
-        void buildTree(char, string&);
-
         //saving Huffman Encoded file
         void saveEncodedFile();
         
