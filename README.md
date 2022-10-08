@@ -1,7 +1,3 @@
-
-![Logo](https://banner2.cleanpng.com/20180320/xgq/kisspng-computer-icons-zip-file-zip-files-free-5ab088d961dd16.4624255215215188094009.jpg)
-
-
 # Text-File Zipper
 
 A file zipper which can be used to compress text-files and decompress them.
