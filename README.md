@@ -1,5 +1,5 @@
 
-![Logo](https://e7.pngegg.com/pngimages/258/300/png-clipart-computer-icons-zip-truetype-icon-file-zip-miscellaneous-white.png)
+![Logo](https://banner2.cleanpng.com/20180320/xgq/kisspng-computer-icons-zip-file-zip-files-free-5ab088d961dd16.4624255215215188094009.jpg)
 
 
 # Text-File Zipper
