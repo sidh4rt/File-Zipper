@@ -47,18 +47,18 @@ class huff {
         //constructing the Huffman tree
         void createTree();
 
-        //generating Huffman codes
-        void createCodes();
-        
         //traversing the constructed tree to generate huffman codes of each present character
         void traverse(Node*, string);
-        
+
         //to convert binary string to its equivalent decimal value
         int binToDec(string);
         
         //to convert a decimal number to its equivalent binary string
         string decToBin(int);
         
+        //generating Huffman codes
+        void createCodes();
+
         //saving Huffman Encoded file
         void saveEncodedFile();
         
