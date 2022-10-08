@@ -70,7 +70,7 @@ class huff {
 
     public:
         //constructor
-        huff (string inFileName, string outFileName) {
+        huff (string infileName, string outfileName) {
             this->infileName = infileName;
             this->outfileName = outfileName;
             createArr();
